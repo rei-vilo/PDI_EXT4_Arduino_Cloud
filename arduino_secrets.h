@@ -1,0 +1,4 @@
+#define SECRET_DEVICE_KEY ""
+#define SECRET_DEVICE_LOGIN_NAME ""
+#define SECRET_OPTIONAL_PASS ""
+#define SECRET_SSID ""
