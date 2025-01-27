@@ -1,9 +1,0 @@
-:Author: Rei Vilo
-:Email:
-:Date: 2025-01-27
-:Revision: 810
-:License: Public Domain
-
-= Project: PDI_EXT4_Arduino_Cloud
-
-See ReadMe.md
