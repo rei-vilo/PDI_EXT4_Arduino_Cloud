@@ -69,8 +69,8 @@ Service
 When using **Pin Numbering > By Arduino pin (Default)**
 
 ```
-/home/reivilo/Projets/Arduino/libraries/Adafruit_NeoPixel/esp.c:40: undefined reference to `digitalPinToGPIONumber'
-/home/reivilo/.arduino15/packages/esp32/tools/esp-xs3/2302/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/ld: /home/reivilo/Projets/Arduino/libraries/Adafruit_NeoPixel/esp.c:65: undefined reference to `digitalPinToGPIONumber'
+~/Projets/Arduino/libraries/Adafruit_NeoPixel/esp.c:40: undefined reference to `digitalPinToGPIONumber'
+~/.arduino15/packages/esp32/tools/esp-xs3/2302/bin/../lib/gcc/xtensa-esp32s3-elf/12.2.0/../../../../xtensa-esp32s3-elf/bin/ld: ~/Projets/Arduino/libraries/Adafruit_NeoPixel/esp.c:65: undefined reference to `digitalPinToGPIONumber'
 collect2: error: ld returned 1 exit status
 ```
 
@@ -86,7 +86,7 @@ Use **Pin Numbering > By GPIO number (Legacy)** instead
 Upload often raises an error.
 
 ```
-"/home/reivilo/.arduino15/packages/arduino/tools/dfu-util/0.11.0-arduino5/dfu-util" --device 0x2341:0x0070 -D "/home/reivilo/.var/app/cc.arduino.IDE2/cache/arduino/sketches/B74BAAA1CDC76BF1D661B8EA49CB0DA1/Blink.ino.bin" -Q
+"~/.arduino15/packages/arduino/tools/dfu-util/0.11.0-arduino5/dfu-util" --device 0x2341:0x0070 -D "~/.var/app/cc.arduino.IDE2/cache/arduino/sketches/B74BAAA1CDC76BF1D661B8EA49CB0DA1/Blink.ino.bin" -Q
 dfu-util 0.11-arduino4
 
 Copyright 2005-2009 Weston Schmidt, Harald Welte and OpenMoko Inc.
