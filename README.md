@@ -1,4 +1,4 @@
-# PDI EXT4 Remote WiFi with ESP32 
+# PDI EXT4 Remote WiFi with Arduino Cloud 
 
 The **PDI EXT4 Remote WiFi with ESP32** project is a home automation application that displays on an e-paper the temperature and humidity as well as messages received by Internet.
 
