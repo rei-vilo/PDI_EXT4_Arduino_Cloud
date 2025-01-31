@@ -10,7 +10,7 @@ It connects to the Arduino cloud and dashboard. The dashboard displays the tempe
 
 The Pervasive Displays EXT4 extension kit is part of the EPDK-Matter bundle. The adapter board supports the other Arduino Nano boards operating at 3.3V.  
 
-The project is developed with the Arduino IDE 2.3.3 with the Espressif ESP32 core. Select **Pin Numbering > By GPIO number (Legacy)** for compatibility with the Adafruit NeoPixel library.
+The project is developed with the Arduino IDE `2.3.3` with the Arduino ESP32 Boards core `2.0.17-arduino.5`. Select **Pin Numbering > By GPIO number (Legacy)** for compatibility with the Adafruit NeoPixel library.
 
 ## Details
 
@@ -20,11 +20,11 @@ The variables used by the Arduino IoT Cloud are
 
 Type | Variable | Widget | READ/WRITE
 ---- | ---- | ---- | ----
-String | vText | Messenger | READ/WRITE
-float | vHumidity | Value, float | READ
-float | vTemperature | Value, float | READ
-CloudColoredLight | vColour | Coloured light | READ/WRITE
-bool | vStop | Button | READ/WRITE
+String | `vText` | Messenger | `READ/WRITE`
+float | `vHumidity` | Value, float | `READ`
+float | `vTemperature` | Value, float | `READ`
+CloudColoredLight | `vColour` | Coloured light | `READ/WRITE`
+bool | `vStop` | Button | `READ/WRITE`
 
 Variables which are marked as `READ/WRITE` in the Cloud Thing will also have functions which are called when their values are changed from the Dashboard. 
 
