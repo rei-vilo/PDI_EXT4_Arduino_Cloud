@@ -131,7 +131,7 @@ void manageText()
 //
 
 //
-// --- PDLS
+// --- PDLS 8.x
 //
 #include "PDLS_EXT4_Basic_Matter.h"
 
@@ -240,7 +240,7 @@ void manageScreen()
             myScreen.gTextLarge(0, yText + dy * i, utf2iso(lines[i]));
         }
 
-        Serial.print(formatString("lines[%].length() = %i", i, lines[i].length()));
+        Serial.print(formatString("lines[%i].length() = %i", i, lines[i].length()));
         Serial.print("  ");
         for (uint8_t k = 0; k < vText.length(); k += 1)
         {
